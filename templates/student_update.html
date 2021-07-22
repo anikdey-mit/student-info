@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+
+<h2>Student Update</h2>
+
+<form action="" method="POST">
+    {{ student_form.as_p }}
+    {% csrf_token %}
+
+    <input type="submit" name="update" value="Update Student">
+</form>
+
+{% endblock %}

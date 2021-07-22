@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+
+<h2>Student Details</h2>
+
+<h4>Student ID: {{details.student_id}}</h4>
+<h4>Name: {{details.name}}</h4>
+<h4>Age: {{details.age}}</h4>
+<h4>Sex: {{details.sex}}</h4>
+<h4>Father's Name: {{details.father_name}}</h4>
+<h4>Mother's Name: {{details.mother_name}}</h4>
+<h4>Last Education: {{details.last_education}}</h4>
+
+<a href= "{% url 'student_information:update' student_id=details.id  %}" class="btn btn-primary">Update</a>
+<a href= "{% url 'student_information:delete' student_id=details.id  %}" class="btn btn-primary">Delete</a>
+
+{% endblock %}
