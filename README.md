@@ -9,8 +9,9 @@ Here Django version is 3.2 and Python version is 3.9.4
 
                                         $ source bin/activate
                                         
-* And for Windows :
-                                        .\env\Scripts\activate
+* And for Windows:
+
+                                        .env/Scripts/activate
 
 * After activating the virtual environment, we need to change the directory to move to the project folder :
 
