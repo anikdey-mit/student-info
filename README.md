@@ -5,9 +5,12 @@ Here Django version is 3.2 and Python version is 3.9.4
 
 ---------------------------------------------------------------------------
 
-* To run the Django application on macOS, we need to create virtual environment. Then it we need to activate the virtual environment by running the following command :
+* To run the Django application, we need to create virtual environment. Then it we need to activate the virtual environment by running the following command for macOS :
 
                                         $ source bin/activate
+                                        
+* And for Windows :
+                                        .\env\Scripts\activate
 
 * After activating the virtual environment, we need to change the directory to move to the project folder :
 
