@@ -11,4 +11,4 @@ Django application will start by running the following command:
 
                                         python manage.py runserver
                                         
-## It will run in the local server on port 8000.
+In the local server, the application will run on port 8000.
