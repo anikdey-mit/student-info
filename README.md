@@ -9,6 +9,9 @@ Here Django version is 3.2 and Python version is 3.9.4
 
                                         $ source bin/activate
 
+* After activating the virtual environment, we need to change the directory to move to the project folder :
+
+                                        $ cd student_info
 
 * Django application will start by running the following command:
 
